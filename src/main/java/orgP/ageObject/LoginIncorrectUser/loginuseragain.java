@@ -49,7 +49,7 @@ public class loginuseragain {
     }
     public void enteremailandpassword2()
     {
-    	enteremail.sendKeys("shekharsavant.com");
+    	enteremail.sendKeys("shekharsavant");
     	enterpass.sendKeys("stonecold@51");
     }
     public void loginclick2() 
