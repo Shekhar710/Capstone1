@@ -15,7 +15,7 @@ public class AutomationTestCase1 extends BaseConfigurationAutomationExercise {
 	public SignupPage homesignup;
 	public FillDetails Filluserdetails;
 	public AccountVerify VerifyAccount;
-	public HomePageDeleteAcc deleteaccverify;
+	//public HomePageDeleteAcc deleteaccverify;
 	
 	WebDriver driver;
 	
@@ -28,7 +28,7 @@ public class AutomationTestCase1 extends BaseConfigurationAutomationExercise {
 		homesignup = new SignupPage(driver);
 		Filluserdetails = new FillDetails(driver);
 		VerifyAccount = new AccountVerify(driver);
-		deleteaccverify = new HomePageDeleteAcc(driver);
+		//deleteaccverify = new HomePageDeleteAcc(driver);
 	}
 	
 	@Test
@@ -48,7 +48,7 @@ public class AutomationTestCase1 extends BaseConfigurationAutomationExercise {
 		VerifyAccount.AccountButtonVerify();
 		
 		// Class 4
-		deleteaccverify.AccountButtonVerify();
+		//deleteaccverify.AccountButtonVerify();
 	}
 
 

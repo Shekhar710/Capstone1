@@ -46,8 +46,8 @@ public class SignupPage {
     }
     public void EnterNameEmail()
     {
-    	Entername.sendKeys("Vishal Khand");
-    	Enteremail.sendKeys("vishalkha@gmail.com");
+    	Entername.sendKeys("Shekhar Savant ");
+    	Enteremail.sendKeys("Shekhar01234567@gmail.com");
     }
     public void Clickenter()
     {

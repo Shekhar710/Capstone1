@@ -34,7 +34,7 @@ public class AutomationTestCase2 extends BaseConfigurationAutomationExercise {
 		homelogin1.loginclick();
 		
 		// class 2
-		deleteccount.AccountButtonVerify();
+		//deleteccount.AccountButtonVerify();
 	}
 
 

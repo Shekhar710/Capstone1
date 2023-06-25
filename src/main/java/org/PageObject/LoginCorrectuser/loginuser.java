@@ -49,8 +49,8 @@ public class loginuser {
     }
     public void enteremailandpassword()
     {
-    	enteremail.sendKeys("shekharsawant1411@gmail.com");
-    	enterpass.sendKeys("Vishu@5151");
+    	enteremail.sendKeys("shekharsawant789@gmail.com");
+    	enterpass.sendKeys("Shekhar@316");
     }
     public void loginclick() 
     {

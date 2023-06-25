@@ -27,7 +27,9 @@ public class AddReviewProdcut2 {
 	  @FindBy(id="review")
 	  public WebElement WriteReview;
 	  
-	  @FindBy(id="button-review")
+	   @FindBy(id="button-review")
+	  //  @FindBy(xpath = "//button[@id='button-review']")
+	  //@FindBy(xpath = "/html[1]/body[1]/section[1]/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div[1]/form[1]/button[1]") 
 	  public WebElement SubmitReview;
 	  
 	  @FindBy(xpath = "//span[contains(text(),'Thank you for your review.')]")
@@ -36,7 +38,7 @@ public class AddReviewProdcut2 {
 	  public void EnterReview()
 	  {
 		  ReviewMsg.isDisplayed();
-		  NameReview.sendKeys("Vishal");
+		  NameReview.sendKeys("Shekhar");
 		  EmailReview.sendKeys("demo@gmail.com");
 		  WriteReview.sendKeys("Great");
 		  SubmitReview.click();

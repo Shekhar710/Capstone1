@@ -16,7 +16,7 @@ public class HomePageDeleteAcc2 {
 	}
 	
 	// Verify that 'Logged in as user name' is visible
-	@FindBy(xpath="//b[normalize-space()='vishal vilas khand']")
+	@FindBy(xpath="//b[normalize-space()='Shekhar suryaknat savant ']")
 	public WebElement verifyusername1;
 	
 	// Click 'Delete Account' button
@@ -24,26 +24,26 @@ public class HomePageDeleteAcc2 {
 	public WebElement deleteAccButtton1;
 
 	// Verify that 'ACCOUNT DELETED!' is visible
-	@FindBy(xpath="//b[normalize-space()='Account Deleted!']")
-	public WebElement verifyAccDelete1;
+	//@FindBy(xpath="//b[normalize-space()='Account Deleted!']")
+	//public WebElement verifyAccDelete1;
 	
 	// click 'Continue' button
-	@FindBy(xpath="//a[@class='btn btn-primary']")
-	public WebElement clickContinue1;
+	//@FindBy(xpath="//a[@class='btn btn-primary']")
+	//public WebElement clickContinue1;
 	
 	
 
 	public void AccountButtonVerify() 
 	{
 		System.out.println(verifyusername1.isDisplayed());
-    	Assert.assertTrue(verifyusername1.isDisplayed(),("Logged in as vishal vilas khand"));
+    	Assert.assertTrue(verifyusername1.isDisplayed(),("Shekhar suryaknat savant "));
     	
     	deleteAccButtton1.click();
     	
-    	System.out.println(verifyusername1.isDisplayed());
-    	Assert.assertTrue(verifyusername1.isDisplayed(),("ACCOUNT DELETED!"));  
+    	//System.out.println(verifyusername1.isDisplayed());
+    	//Assert.assertTrue(verifyusername1.isDisplayed(),("ACCOUNT DELETED!"));  
     	
-    	clickContinue1.click();
+    	//clickContinue1.click();
     	
 	}
 

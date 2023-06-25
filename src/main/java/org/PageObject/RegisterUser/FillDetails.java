@@ -73,7 +73,7 @@ public class FillDetails {
 	public WebElement enterMobileNo;
 	
 	//click create button
-//	@FindBy(xpath="//button[normalize-space()='Create Account']")
+	//@FindBy(xpath="//button[normalize-space()='Create Account']")
 	@FindBy(xpath="//*[text()='Create Account']")
 	public WebElement clickcreatebutton ;
 	
@@ -86,7 +86,7 @@ public class FillDetails {
 	public void filldetialsAccountuser() 
 	{
 		clicktitle.click();
-		enterpassword.sendKeys("Vishu@5151");
+		enterpassword.sendKeys("esshu@5151");
 		
 		Select day = new Select(enterDay);
 		day.selectByVisibleText("18");
@@ -99,8 +99,8 @@ public class FillDetails {
 		
 //		cheeckbox1.click();
 //		cheeckbox2.click();
-		enterfirstname.sendKeys("Vishal");
-		enterlastname.sendKeys("Khand");
+		enterfirstname.sendKeys("Shekhar ");
+		enterlastname.sendKeys("Savant");
 		enterCompany.sendKeys("Axis");
 		enterAddress.sendKeys("Auaranagabad, Maharastra");
 		enterAddress2.sendKeys("Aurangpura");
